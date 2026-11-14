@@ -12,8 +12,11 @@ keeps its own thin components on top of it. [DESIGN.md](DESIGN.md) has the rules
 
 ## Use
 
+Install a tagged version from its tarball. It needs no git, so it also works in slim Docker
+images and on Railway:
+
 ```bash
-npm install github:Kaldeshara/dance-ui#v0.1.0
+npm install -D https://codeload.github.com/Kaldeshara/dance-ui/tar.gz/refs/tags/v0.1.0
 ```
 
 ```css
